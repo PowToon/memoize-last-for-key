@@ -1,0 +1,32 @@
+{
+  "name": "memoize-last-for-key",
+  "version": "0.0.1",
+  "description": "Creates a function that caches the last result of arguments, by key calculated from the arguments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowToon/memoize-last-for-key.git"
+  },
+  "keywords": [
+    "memoize",
+    "key",
+    "resolver",
+    "powtoon"
+  ],
+  "author": "Powtoon (powtoon@powtoon.com), Vitalik Zaidman (vzaidman@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PowToon/memoize-last-for-key/issues"
+  },
+  "homepage": "https://github.com/PowToon/memoize-last-for-key#readme",
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~3.2.0"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0"
+  }
+}
