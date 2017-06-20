@@ -24,7 +24,7 @@ module.exports = function keyArgsMemoize(fn, options){
       })
     }
 
-    if(shouldAddKey){
+    if(size && shouldAddKey){
       cache.removeOldKeys(size, entryOrder)
     }
 
