@@ -1,6 +1,6 @@
 {
   "name": "memoize-last-for-key",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Creates a function that caches the last result of arguments, by key calculated from the arguments.",
   "main": "index.js",
   "scripts": {

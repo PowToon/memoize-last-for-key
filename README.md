@@ -55,7 +55,7 @@ const anotherUpdatedItem = updateItemPrice(item, 200)  //{id: 1, name: 'item-1',
 // updatedItem === anotherUpdatedItem
 
 const newItem = {id: 1, name: 'item-2', price: 100}
-const newUpdatedItem = updateItemPrice(item, 200)  //{id: 1, price: 200}
+const newUpdatedItem = updateItemPrice(newItem, 200)  //{id: 1, price: 200}
 // updatedItem !== newUpdatedItem because newItem is not item
  
 ```
